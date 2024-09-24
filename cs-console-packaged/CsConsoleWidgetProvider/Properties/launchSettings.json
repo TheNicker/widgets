@@ -1,0 +1,22 @@
+{
+  "profiles": {
+    "Provider on launch": {
+      "commandName": "MsixPackage",
+      "commandLineArgs": "-RegisterProcessAsComServer",
+      "doNotLaunchApp": true
+    },
+    "UI App": {
+      "commandName": "MsixPackage"
+    },
+    "Provider": {
+      "commandName": "MsixPackage",
+      "commandLineArgs": "-RegisterProcessAsComServer"
+    },
+    "Profile 1": {
+      "commandName": "Executable"
+    },
+    "Profile 2": {
+      "commandName": "MsixPackage"
+    }
+  }
+}
